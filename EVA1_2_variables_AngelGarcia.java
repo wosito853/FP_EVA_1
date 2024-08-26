@@ -24,7 +24,7 @@ System.out.println
         false
         )
         ;               // ; fin de instrucción (escencial )
-    }
+    
     
     
     // ENTEROS:
@@ -52,8 +52,27 @@ System.out.println
     String nombre;
     String apellido;
     String curp;
-    float promedio;
+    double promedio;
+    int edad; 
+    edad = 18;  // ASIGNACIÓN; Estoy colocando el valor 18 
+              // dentro de la variable
     
-    
-    
+   nombre = "Angel Garcia";
+   
+   apellido = "Garcia Soto";
+   
+   promedio = 8.8;
+   
+   
+   System.out.println(nombre);
+   System.out.println(edad);
+   System.out.println(apellido);
+   System.out.println(promedio);
+   
+   
+   
+   
+        
+   
+    }   
 }
